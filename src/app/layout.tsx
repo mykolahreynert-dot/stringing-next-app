@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Affordable Tennis Racket Stringing – Lakewood Ranch / Bradenton",
+  title:
+    "Affordable Tennis Racket Stringing – Lakewood Ranch, Bradenton & Sarasota",
   description:
-    "Affordable, reliable tennis racket stringing for players in Lakewood Ranch and Bradenton. Professional workmanship, consistent tension, and fast turnaround.",
+    "Affordable, reliable tennis racket stringing for players in Lakewood Ranch, Bradenton and Sarasota. Professional workmanship, consistent tension, and fast turnaround.",
 };
 
 export default function RootLayout({

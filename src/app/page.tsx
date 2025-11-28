@@ -17,7 +17,7 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-full border border-emerald-400/70 bg-slate-900/70">
-              <div className="h-6 w-6 rounded-full border border-emerald-400 relative overflow-hidden">
+              <div className="relative h-6 w-6 overflow-hidden rounded-full border border-emerald-400">
                 <span className="absolute left-[-40%] top-1/2 h-[2px] w-[180%] -translate-y-1/2 rotate-[-18deg] bg-emerald-400" />
               </div>
             </div>
@@ -30,7 +30,7 @@ export default function HomePage() {
               <a
                 key={item.href}
                 href={item.href}
-                className="rounded-full px-3 py-1 hover:bg-slate-800 hover:text-emerald-300 transition"
+                className="rounded-full px-3 py-1 transition hover:bg-slate-800 hover:text-emerald-300"
               >
                 {item.label}
               </a>
@@ -47,15 +47,15 @@ export default function HomePage() {
         >
           <div>
             <p className="mb-2 inline-block rounded-full border border-emerald-400/40 bg-slate-950/50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-emerald-300/90">
-              Lakewood Ranch · Bradenton
+              Lakewood Ranch · Bradenton · Sarasota
             </p>
             <h1 className="mb-3 text-2xl font-semibold leading-tight text-slate-50 md:text-3xl">
               Fast &amp; reliable tennis racket stringing in Lakewood Ranch
             </h1>
             <p className="mb-4 text-sm text-slate-300 md:text-[15px]">
               High-quality racket stringing for local tennis players in Lakewood
-              Ranch and Bradenton. Consistent tension, clean work, and quick
-              turnaround.
+              Ranch, Bradenton and Sarasota. Consistent tension, clean work, and
+              quick turnaround.
             </p>
 
             <div className="mb-4 flex flex-wrap gap-2">
@@ -86,7 +86,7 @@ export default function HomePage() {
             </div>
 
             <p className="text-[12px] text-slate-300">
-              Call or text:{" "}
+              Call, text, WhatsApp or Viber:{" "}
               <span className="font-semibold text-slate-50">
                 +1 941 226 9305
               </span>{" "}
@@ -105,7 +105,8 @@ export default function HomePage() {
               <div className="flex gap-2">
                 <dt className="w-24 shrink-0 text-slate-400">Location</dt>
                 <dd>
-                  Westbrook Circle area, Lakewood Ranch (Bradenton, FL 34211)
+                  Westbrook Circle area, Lakewood Ranch (Bradenton, FL 34211).
+                  Serving players from Lakewood Ranch, Bradenton and Sarasota.
                 </dd>
               </div>
               <div className="flex gap-2">
@@ -178,8 +179,8 @@ export default function HomePage() {
               Drop-off &amp; Pickup
             </h2>
             <p className="text-sm text-slate-400">
-              Convenient locations for players in Lakewood Ranch, Bradenton, and
-              nearby areas.
+              Convenient locations for players in Lakewood Ranch, Bradenton,
+              Sarasota and nearby areas.
             </p>
           </header>
 
@@ -287,9 +288,8 @@ export default function HomePage() {
                 frameBorder={0}
                 marginHeight={0}
                 marginWidth={0}
-              >
-                Loading…
-              </iframe>
+                title="Tennis racket stringing request form"
+              />
             </div>
           </div>
         </section>
@@ -308,9 +308,10 @@ export default function HomePage() {
               “Consistent, clean stringing and very reasonable pricing.
               Turnaround has always been fast.”
               <div className="mt-2 text-[11px] text-slate-400">
-                – Local club player
+                – Eldar Greinert, UTR 11.5, NGTA Tennis Academy player
               </div>
             </div>
+
             <div className="rounded-2xl border-l-4 border-emerald-400/80 bg-slate-900/80 p-4 text-sm text-slate-200">
               “Tension feels exactly as requested every time. Reliable
               communication and easy drop-off and pickup.”
@@ -339,7 +340,7 @@ export default function HomePage() {
             <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 text-sm text-slate-200">
               <p className="mb-3">
                 <span className="block text-xs font-semibold uppercase tracking-wide text-slate-400">
-                  Phone / Text
+                  Phone / Text / WhatsApp / Viber
                 </span>
                 <a
                   href="tel:+19412269305"
@@ -358,6 +359,15 @@ export default function HomePage() {
                 >
                   affordable.stringing.tennis@gmail.com
                 </a>
+              </p>
+              <p className="mb-3">
+                <span className="block text-xs font-semibold uppercase tracking-wide text-slate-400">
+                  Social
+                </span>
+                <span className="text-[13px] text-slate-300">
+                  Facebook and Instagram pages are coming soon. Once they are
+                  live, links will appear here.
+                </span>
               </p>
               <p className="mb-3">
                 <span className="block text-xs font-semibold uppercase tracking-wide text-slate-400">
@@ -380,12 +390,12 @@ export default function HomePage() {
 
             <div className="rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900 to-slate-950 p-5 text-sm text-slate-200">
               <h3 className="text-sm font-semibold text-emerald-300">
-                Serving Lakewood Ranch &amp; Bradenton
+                Serving Lakewood Ranch, Bradenton &amp; Sarasota
               </h3>
               <p className="mt-2 text-[13px] text-slate-200">
                 The service is based near Westbrook Circle in Lakewood Ranch,
-                conveniently located for players from Lakewood Ranch, Bradenton,
-                and nearby communities.
+                conveniently located for players from Lakewood Ranch, Bradenton
+                and Sarasota, as well as nearby communities.
               </p>
               <p className="mt-3 text-[13px] text-slate-300">
                 Once your request is received, you will receive detailed
@@ -400,7 +410,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-2 py-3 md:flex-row md:items-center md:justify-between">
             <span>
               © {new Date().getFullYear()} Affordable Stringing of Tennis
-              Rackets – Lakewood Ranch, Bradenton.
+              Rackets – Lakewood Ranch, Bradenton &amp; Sarasota.
             </span>
             <span>Local tennis racket stringing – by appointment only.</span>
           </div>
